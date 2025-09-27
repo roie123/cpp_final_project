@@ -14,7 +14,7 @@ public:
 
     }
 
-    bool check_health() override;
+    bool check_health() const override;
 
 
 

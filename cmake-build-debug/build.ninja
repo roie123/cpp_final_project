@@ -61,6 +61,36 @@ build CMakeFiles/cpp_project.dir/Equation.cpp.o: CXX_COMPILER__cpp_project_unsca
   OBJECT_DIR = CMakeFiles/cpp_project.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_project.dir
 
+build CMakeFiles/cpp_project.dir/Animal.cpp.o: CXX_COMPILER__cpp_project_unscanned_Debug /home/royivri/CLionProjects/cpp_project/Animal.cpp || cmake_object_order_depends_target_cpp_project
+  DEP_FILE = CMakeFiles/cpp_project.dir/Animal.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/cpp_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_project.dir
+
+build CMakeFiles/cpp_project.dir/Cat.cpp.o: CXX_COMPILER__cpp_project_unscanned_Debug /home/royivri/CLionProjects/cpp_project/Cat.cpp || cmake_object_order_depends_target_cpp_project
+  DEP_FILE = CMakeFiles/cpp_project.dir/Cat.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/cpp_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_project.dir
+
+build CMakeFiles/cpp_project.dir/Dog.cpp.o: CXX_COMPILER__cpp_project_unscanned_Debug /home/royivri/CLionProjects/cpp_project/Dog.cpp || cmake_object_order_depends_target_cpp_project
+  DEP_FILE = CMakeFiles/cpp_project.dir/Dog.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/cpp_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_project.dir
+
+build CMakeFiles/cpp_project.dir/Vet.cpp.o: CXX_COMPILER__cpp_project_unscanned_Debug /home/royivri/CLionProjects/cpp_project/Vet.cpp || cmake_object_order_depends_target_cpp_project
+  DEP_FILE = CMakeFiles/cpp_project.dir/Vet.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/cpp_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_project.dir
+
+build CMakeFiles/cpp_project.dir/Cow.cpp.o: CXX_COMPILER__cpp_project_unscanned_Debug /home/royivri/CLionProjects/cpp_project/Cow.cpp || cmake_object_order_depends_target_cpp_project
+  DEP_FILE = CMakeFiles/cpp_project.dir/Cow.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/cpp_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_project.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_project
@@ -69,7 +99,7 @@ build CMakeFiles/cpp_project.dir/Equation.cpp.o: CXX_COMPILER__cpp_project_unsca
 #############################################
 # Link the executable cpp_project
 
-build cpp_project: CXX_EXECUTABLE_LINKER__cpp_project_Debug CMakeFiles/cpp_project.dir/main.cpp.o CMakeFiles/cpp_project.dir/Equation.cpp.o
+build cpp_project: CXX_EXECUTABLE_LINKER__cpp_project_Debug CMakeFiles/cpp_project.dir/main.cpp.o CMakeFiles/cpp_project.dir/Equation.cpp.o CMakeFiles/cpp_project.dir/Animal.cpp.o CMakeFiles/cpp_project.dir/Cat.cpp.o CMakeFiles/cpp_project.dir/Dog.cpp.o CMakeFiles/cpp_project.dir/Vet.cpp.o CMakeFiles/cpp_project.dir/Cow.cpp.o
   DEP_FILE = CMakeFiles/cpp_project.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/cpp_project.dir/link.d

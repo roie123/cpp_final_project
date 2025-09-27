@@ -3,4 +3,4 @@ project(cpp_project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp_project main.cpp Equation.cpp)
+add_executable(cpp_project main.cpp Equation.cpp Animal.cpp Cat.cpp Dog.cpp Vet.cpp Cow.cpp)

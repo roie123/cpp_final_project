@@ -4,7 +4,7 @@
 
 #include "Cow.h"
 
-bool Cow::check_health() {
+bool Cow::check_health() const {
     return (temp >= 38.5 && temp <= 39.5) &&
        (breath >= 26 && breath <= 50) &&
        (heart >= 48 && heart <= 84) &&

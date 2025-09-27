@@ -4,7 +4,7 @@
 
 #include "Dog.h"
 
-bool Dog::check_health() {    /// EXTRA POINTS FOR 1 LINE ?
+bool Dog::check_health() const {    /// EXTRA POINTS FOR 1 LINE ?
     return (temp >= 38 && temp <= 39.2) &&
            (breath >= 10 && breath <= 35) &&
            (

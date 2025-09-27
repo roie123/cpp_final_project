@@ -13,7 +13,7 @@ public:
         : Animal(name_, temp_, breath_, heart_),
           milk(milk) {
     }
-    bool check_health() override;
+    bool check_health() const override;
 
 private:
     double milk; //amount of liters per day the cow produces

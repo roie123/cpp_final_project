@@ -11,11 +11,21 @@ class Animal {
 public:
     virtual ~Animal() = default;
 
-    Animal(std::string name_,double temp_,double breath_,double heart_);
-    virtual bool check_health();
+    Animal(const std::string& name_,double temp_,double breath_,double heart_);
+    virtual bool check_health() const=0;
 
 
+    // Getters
+    std::string get_name() const { return name; }
+    double get_temp() const { return temp; }
+    double get_breath() const { return breath; }
+    double get_heart() const { return heart; }
 
+    // Setters
+    void set_name(const std::string& n) { name = n; }
+    void set_temp(double t) { temp = t; }
+    void set_breath(double b) { breath = b; }
+    void set_heart(double h) { heart = h; }
 
 
 
