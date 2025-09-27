@@ -11,7 +11,9 @@ class Animal {
 public:
     virtual ~Animal() = default;
 
-    Animal(const std::string& name_,double temp_,double breath_,double heart_);
+    Animal(std::string name_, double temp_, double breath_, double heart_)
+    : name(std::move(name_)), temp(temp_), breath(breath_), heart(heart_) {}
+
     virtual bool check_health() const=0;
 
 
@@ -22,7 +24,6 @@ public:
     double get_heart() const { return heart; }
 
     // Setters
-    void set_name(const std::string& n) { name = n; }
     void set_temp(double t) { temp = t; }
     void set_breath(double b) { breath = b; }
     void set_heart(double h) { heart = h; }
@@ -30,7 +31,7 @@ public:
 
 
 protected:
-    std::string name;
+    const std::string name; // a name once given
     double temp; //animal temp in C
     double breath;//breaths per minute
     double heart; //heart rate - beats per minute
